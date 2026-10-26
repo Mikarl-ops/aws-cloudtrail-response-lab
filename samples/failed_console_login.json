@@ -1,0 +1,25 @@
+{
+  "version": "0",
+  "id": "synthetic-event-001",
+  "detail-type": "AWS API Call via CloudTrail",
+  "source": "aws.signin",
+  "account": "123456789012",
+  "time": "2026-10-24T02:12:00Z",
+  "region": "ap-southeast-1",
+  "detail": {
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "eventTime": "2026-10-24T02:12:00Z",
+    "awsRegion": "ap-southeast-1",
+    "sourceIPAddress": "203.0.113.70",
+    "eventID": "synthetic-event-001",
+    "responseElements": {
+      "ConsoleLogin": "Failure"
+    },
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "demo-user",
+      "arn": "arn:aws:iam::123456789012:user/demo-user"
+    }
+  }
+}
